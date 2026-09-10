@@ -1,0 +1,14 @@
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\bin\Debug\net8.0\AppDataMahasiswa.exe
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\bin\Debug\net8.0\AppDataMahasiswa.deps.json
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\bin\Debug\net8.0\AppDataMahasiswa.runtimeconfig.json
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\bin\Debug\net8.0\AppDataMahasiswa.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\bin\Debug\net8.0\AppDataMahasiswa.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.AssemblyInfoInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.AssemblyInfo.cs
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.csproj.CoreCompileInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\refint\AppDataMahasiswa.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\AppDataMahasiswa.genruntimeconfig.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\AppDataMahasiswa\obj\Debug\net8.0\ref\AppDataMahasiswa.dll

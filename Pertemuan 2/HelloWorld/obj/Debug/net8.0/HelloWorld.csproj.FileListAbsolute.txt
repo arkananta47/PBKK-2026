@@ -1,0 +1,14 @@
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+D:\File Kuliah\5_PBKK\Pertemuan 2\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
