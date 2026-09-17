@@ -1,0 +1,14 @@
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.exe
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.deps.json
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.runtimeconfig.json
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.dll
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\bin\Debug\net8.0-windows\CalculatorApp.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfoInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.AssemblyInfo.cs
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.dll
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\refint\CalculatorApp.dll
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.pdb
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.genruntimeconfig.cache
+D:\File Kuliah\5_PBKK\Pertemuan 3\CalculatorApp\obj\Debug\net8.0-windows\ref\CalculatorApp.dll
