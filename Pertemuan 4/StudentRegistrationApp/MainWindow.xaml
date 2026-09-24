@@ -1,0 +1,330 @@
+<Window x:Class="StudentRegistrationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Registration App"
+        Width="1100"
+        Height="700"
+        MinWidth="900"
+        MinHeight="600"
+        WindowStartupLocation="CenterScreen"
+        Background="#F4F6F8">
+
+    <Grid Margin="25">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <Border Grid.Row="0"
+                Background="#263238"
+                CornerRadius="12"
+                Padding="25">
+            <StackPanel>
+                <TextBlock Text="Student Registration App"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="White"/>
+
+                <TextBlock Text="Sistem Registrasi Data Mahasiswa"
+                           FontSize="14"
+                           Foreground="#CFD8DC"
+                           Margin="0,5,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- CONTENT -->
+        <Grid Grid.Row="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- FORM -->
+            <Border Grid.Column="0"
+                    Background="White"
+                    CornerRadius="12"
+                    Padding="25">
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- TITLE -->
+                    <TextBlock Grid.Row="0"
+                               Text="Data Mahasiswa"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               Foreground="#263238"/>
+
+                    <!-- NAMA -->
+                    <StackPanel Grid.Row="2">
+                        <TextBlock Text="Nama"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,6"/>
+
+                        <TextBox x:Name="txtNama"
+                                 Height="38"
+                                 Padding="10,7"
+                                 FontSize="14"/>
+                    </StackPanel>
+
+                    <!-- NRP -->
+                    <StackPanel Grid.Row="4">
+                        <TextBlock Text="NRP"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,6"/>
+
+                        <TextBox x:Name="txtNRP"
+                                 Height="38"
+                                 Padding="10,7"
+                                 FontSize="14"/>
+                    </StackPanel>
+
+                    <!-- PRODI -->
+                    <StackPanel Grid.Row="6">
+                        <TextBlock Text="Program Studi"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,6"/>
+
+                        <ComboBox x:Name="cmbProdi"
+                                  Height="38"
+                                  FontSize="14">
+                            <ComboBoxItem Content="Teknik Informatika"/>
+                            <ComboBoxItem Content="Sistem Informasi"/>
+                            <ComboBoxItem Content="Teknik Elektro"/>
+                            <ComboBoxItem Content="Teknik Industri"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- GENDER -->
+                    <StackPanel Grid.Row="8">
+                        <TextBlock Text="Jenis Kelamin"
+                                   FontWeight="SemiBold"
+                                   Margin="0,0,0,8"/>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <RadioButton x:Name="rbLaki"
+                                         Content="Laki-laki"
+                                         IsChecked="True"
+                                         Margin="0,0,30,0"
+                                         FontSize="14"/>
+
+                            <RadioButton x:Name="rbPerempuan"
+                                         Content="Perempuan"
+                                         FontSize="14"/>
+
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- BUTTONS -->
+                    <Grid Grid.Row="10">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="btnSimpan"
+                                Grid.Column="0"
+                                Content="Simpan"
+                                Height="42"
+                                FontSize="14"
+                                FontWeight="Bold"
+                                Foreground="White"
+                                Background="#42A5F5"
+                                BorderThickness="0"
+                                Click="BtnSimpan_Click"/>
+
+                        <Button x:Name="btnUpdate"
+                                Grid.Column="2"
+                                Content="Update"
+                                Height="42"
+                                FontSize="14"
+                                FontWeight="Bold"
+                                Foreground="White"
+                                Background="#607D8B"
+                                BorderThickness="0"
+                                Click="BtnUpdate_Click"/>
+
+                    </Grid>
+
+                    <!-- DELETE + CLEAR -->
+                    <Grid Grid.Row="12">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="btnHapus"
+                                Grid.Column="0"
+                                Content="Hapus"
+                                Height="42"
+                                FontSize="14"
+                                FontWeight="Bold"
+                                Foreground="White"
+                                Background="#EF5350"
+                                BorderThickness="0"
+                                Click="BtnHapus_Click"/>
+
+                        <Button x:Name="btnClear"
+                                Grid.Column="2"
+                                Content="Clear"
+                                Height="42"
+                                FontSize="14"
+                                FontWeight="Bold"
+                                Foreground="#263238"
+                                Background="#E0E0E0"
+                                BorderThickness="0"
+                                Click="BtnClear_Click"/>
+
+                    </Grid>
+
+                </Grid>
+
+            </Border>
+
+            <!-- LIST DATA -->
+            <Border Grid.Column="2"
+                    Background="White"
+                    CornerRadius="12"
+                    Padding="25">
+
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- LIST HEADER -->
+                    <Grid Grid.Row="0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Daftar Mahasiswa"
+                                       FontSize="22"
+                                       FontWeight="Bold"
+                                       Foreground="#263238"/>
+
+                            <TextBlock Text="Data mahasiswa yang tersimpan"
+                                       FontSize="13"
+                                       Foreground="#78909C"
+                                       Margin="0,3,0,0"/>
+                        </StackPanel>
+
+                        <Border Grid.Column="1"
+                                Background="#ECEFF1"
+                                CornerRadius="8"
+                                Padding="12,7">
+
+                            <TextBlock x:Name="txtJumlah"
+                                       Text="0 Mahasiswa"
+                                       FontWeight="SemiBold"
+                                       Foreground="#455A64"/>
+
+                        </Border>
+
+                    </Grid>
+
+                    <!-- LIST -->
+                    <ListBox x:Name="listMahasiswa"
+                             Grid.Row="2"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             SelectionChanged="ListMahasiswa_SelectionChanged">
+
+                        <ListBox.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <Border Background="#F5F7F8"
+                                        CornerRadius="8"
+                                        Margin="0,0,0,10"
+                                        Padding="15">
+
+                                    <Grid>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="{Binding Nama}"
+                                                       FontSize="16"
+                                                       FontWeight="Bold"
+                                                       Foreground="#263238"/>
+
+                                            <TextBlock Text="{Binding NRP}"
+                                                       FontSize="13"
+                                                       Foreground="#607D8B"
+                                                       Margin="0,4,0,0"/>
+
+                                            <TextBlock Text="{Binding Prodi}"
+                                                       FontSize="13"
+                                                       Foreground="#607D8B"
+                                                       Margin="0,2,0,0"/>
+
+                                        </StackPanel>
+
+                                        <Border Grid.Column="1"
+                                                Background="#E3F2FD"
+                                                CornerRadius="6"
+                                                Padding="10,6"
+                                                VerticalAlignment="Center">
+
+                                            <TextBlock Text="{Binding Gender}"
+                                                       FontSize="12"
+                                                       Foreground="#1976D2"
+                                                       FontWeight="SemiBold"/>
+
+                                        </Border>
+
+                                    </Grid>
+
+                                </Border>
+
+                            </DataTemplate>
+
+                        </ListBox.ItemTemplate>
+
+                    </ListBox>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</Window>
